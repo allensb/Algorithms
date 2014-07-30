@@ -1,4 +1,4 @@
 Algorithms
 ==========
 
-Basic Algorithms written in C#
+Common Algorithms written in C#
