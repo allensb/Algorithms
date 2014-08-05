@@ -33,9 +33,9 @@ namespace Algorithms
             }
         }
 
-        private static void MergeRecursive(int[] array, int left, int pivot, int right)
+        private static void MergeRecursive(IList<int> array, int left, int pivot, int right)
         {
-            var temp = new int[array.Length];
+            var temp = new int[array.Count];
 
             int eol = (pivot - 1);
             int pos = left;

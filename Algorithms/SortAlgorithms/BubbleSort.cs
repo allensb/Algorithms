@@ -14,16 +14,15 @@ namespace Algorithms
         ///</summary>
         public static string BubbleSort(int[] array)
         {
-            for (int i = 0; i < array.Length; i++)
+            for (var i = 0; i < array.Length; i++)
             {
-                for (int j = i + 1; j < array.Length; j++)
+                for (var j = i + 1; j < array.Length; j++)
                 {
-                    if (array[i] > array[j])
-                    {
-                        var tmp = array[i];
-                        array[i] = array[j];
-                        array[j] = tmp;
-                    }
+                    if (array[i] <= array[j]) continue;
+
+                    var tmp = array[i];
+                    array[i] = array[j];
+                    array[j] = tmp;
                 }
             }
 
