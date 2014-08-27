@@ -21,6 +21,10 @@ namespace Algorithms
             {
                 if (function.ToLower().Contains("sort"))
                     Console.WriteLine(InvokeSortAlgorithm(function.ToUpperFirstLetter()));
+                else if (function.ToLower().Contains("linkedlist"))
+                {
+                    Algorithms.DataStructures.TestLinkedList.Run();
+                }
                 else
                 {
                     Console.WriteLine("Number:");
