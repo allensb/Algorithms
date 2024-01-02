@@ -2,3 +2,5 @@
 *.user
 Algorithms/bin/
 Algorithms/obj/
+Algorithms/.DS_Store
+.DS_Store
